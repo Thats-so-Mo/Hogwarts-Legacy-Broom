@@ -12,6 +12,7 @@
 // This code is open-source/free to use and modify etc.
 // Thanks to Dave Madison for his ArduinoXinput Library and I followed this tutorial to set myself up: https://www.partsnotincluded.com/how-to-emulate-an-xbox-controller-with-arduino-xinput/
 // Check out and subscribe to my YouTube Channel!: https://www.youtube.com/thatssomo1
+// Thanks to Adafruit for the LSM6DS3TR-C example code in which I had modified and built upon for this project.
 
 #include <Adafruit_LSM6DS3TRC.h>
 #include <NewPing.h>
