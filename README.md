@@ -15,8 +15,11 @@ Items needed:
 4. a push button (for reseting the Arduino - to reset the mount state just incase)
 
 Three required libraries:
+
 Dave Madison's Arduino Xinput - https://www.partsnotincluded.com/how-to-emulate-an-xbox-controller-with-arduino-xinput/
+
 Tim Eckel's NewPing
+
 Adafruit LSM6DS3: https://github.com/adafruit/Adafruit_LSM6DS
 
 Special Thanks to the creators of those libraries, without them - I would not have been able to complete this project. :)
