@@ -4,4 +4,4 @@ The basic idea behind this project is to control the in-game broomstick in Hogwa
 
 ## Check out the video for a setup process and demonstration
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/V1tuf1zIyzc/0.jpg)](https://youtu.be/V1tuf1zIyzc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3N-Sf7CjN4E/0.jpg)](https://youtu.be/3N-Sf7CjN4E)
