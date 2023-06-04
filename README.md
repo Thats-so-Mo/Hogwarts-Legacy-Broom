@@ -28,18 +28,28 @@ Special Thanks to the creators of those libraries, without them - I would not ha
 
 ## Explaination
 
+
 My code is based off of the example code that was provided by Adafruit for the LSM6DS3TR-C sensor.  I removed certain elements that were deemed useless to my goal for example, serial printing temperature, acceleration, gyro. I also added in the setup required for the ultrasonic sensor and Arduino xinput. Three different libraries are required for my code: Arduino Xinput, Adafruit_ accelerator, newping (ulstrasonic). 
-[![Acc data](https://i.ibb.co/Sx92kC7/2-1.png)]
+
+
+![Acc data](https://i.ibb.co/Sx92kC7/2-1.png)
 
 This section essentially converts the accelerometer data from reading the acceleration data into angle data, from radians to degrees.
+
+
+![data](https://i.ibb.co/hMJB7M2/2-2.png)
 
 Now in the first if statement, you can see that i added in three conditions:
 
  1. The mountstate - the mountstate essentially tells the arduino if your either mounted or not, 0 being not and 1 being yes your mounted. This state changes in relation to whether you are mounted or not so in this case this line of code will be triggerable if you are NOT mounted.
  2. This bit of code actually relates to the angle of the broom, essentially the pitch axis (this may be different to how you mount your sensor which in my case x axis become my pitch axis). The broom must be angled between 80 to 100 degrees to satisfy this condition. Because in the harry potter movies and in game, its roughly the angle a person keeps their broom at when they are mounting it.
-3. the third one is that the ultra sonic sensor must detect my torso within a 40cm range of the sensor.
+ 3. the third one is that the ultra sonic sensor must detect my torso within a 40cm range of the sensor.
 
-Once all three conditions are satisfied, the Arduino sends out a xinput command to essentially mount the broom in game. It will Hold LB, wait 1 second, press B for ¾ of a second and then release the hold of the two buttons and change the mountstate to 1. So at this point you should be in person mounted on your broom while your character is doing the same.
+Once all three conditions are satisfied, the Arduino sends out a xinput command to essentially mount the broom in game. It will Hold LB for 1 second, press B for ¾ of a second and then release the hold of the two buttons and change the mountstate to 1. So at this point you should be in person mounted on your broom while your character is doing the same.
+
+
+https://i.ibb.co/BqRywRv/2-3.png
+![data](https://i.ibb.co/BqRywRv/2-3.png)
 
 Now in this section of the code, the six lines of code become activated once the mountstate becomes 1. The first three lines of code relate to the pitch and roll movement of the nimbus 2000 and associating it with the ingame broom. The xinput joysticks is essentially mapped directly to the x axis (pitch) and the z axis (roll).
 
