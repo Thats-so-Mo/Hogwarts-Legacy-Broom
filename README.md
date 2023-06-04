@@ -48,7 +48,6 @@ Now in the first if statement, you can see that i added in three conditions:
 Once all three conditions are satisfied, the Arduino sends out a xinput command to essentially mount the broom in game. It will Hold LB for 1 second, press B for ¾ of a second and then release the hold of the two buttons and change the mountstate to 1. So at this point you should be in person mounted on your broom while your character is doing the same.
 
 
-https://i.ibb.co/BqRywRv/2-3.png
 ![data](https://i.ibb.co/BqRywRv/2-3.png)
 
 Now in this section of the code, the six lines of code become activated once the mountstate becomes 1. The first three lines of code relate to the pitch and roll movement of the nimbus 2000 and associating it with the ingame broom. The xinput joysticks is essentially mapped directly to the x axis (pitch) and the z axis (roll).
