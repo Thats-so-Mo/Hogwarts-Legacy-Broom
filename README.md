@@ -4,7 +4,7 @@ The basic idea behind this project is to control the in-game broomstick in Hogwa
 
 ## Check out the video for a demonstration
 
-[![Thumbnail of Youtube Video based upon this fantastic and brilliant project]([https://raw.githubusercontent.com/Thats-so-Mo/Hogwarts-Legacy-Broom/main/thumbnailv2.png))](https://youtu.be/3N-Sf7CjN4E)
+[![Thumbnail of Youtube Video based upon this fantastic and brilliant project][https://raw.githubusercontent.com/Thats-so-Mo/Hogwarts-Legacy-Broom/main/thumbnailv2.png](https://youtu.be/3N-Sf7CjN4E)
 
 ## Ingredients
 
