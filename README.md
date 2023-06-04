@@ -26,6 +26,8 @@ Special Thanks to the creators of those libraries, without them - I would not ha
 
 ## Wiring Diagram
 
+![Wiring Diagram](https://i.ibb.co/PQRGHxh/wiring.png)
+
 ## Explaination
 
 
